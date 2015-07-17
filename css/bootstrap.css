@@ -1324,7 +1324,7 @@ mark,
   text-align: center;
 }
 .text-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
 .text-nowrap {
   white-space: nowrap;
