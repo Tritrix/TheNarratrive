@@ -6,7 +6,7 @@ body {
 
 #services {
     
-     background-image: url(../img/example.jpg);
+     background-image: url(../img/banners/1-01.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -85,7 +85,7 @@ section#portfolio {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #ffbf00;
 }
 
 p {
@@ -106,14 +106,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #ffbf00;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #ffbf00;
 }
 
 h1,
@@ -140,12 +140,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #ffbf00;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ffbf00;
 }
 
 .btn-primary:hover,
@@ -155,7 +155,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #ffbf00;
 }
 
 .btn-primary:active,
@@ -179,25 +179,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #ffbf00;
+    background-color: #ffbf00;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #ffbf00;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #ffbf00;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ffbf00;
 }
 
 .btn-xl:hover,
@@ -205,9 +205,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #c1272d;
     color: #fff;
-    background-color: #fec503;
+    background-color: #c1272d;
 }
 
 .btn-xl:active,
@@ -231,31 +231,31 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #ffbf00;
+    background-color: #ffbf00;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #ffbf00;
     background-color: #fff;
 }
 
 .navbar-default {
     border-color: transparent;
 /*    background-color: #fff;*/
-    background-color: #808080;
+    background-color: #ffbf00;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #ffbf00;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #ffbf00;
 }
 
 .navbar-default .navbar-collapse {
@@ -263,9 +263,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-/*    border-color: #fed136;*/
-    border-color: #C1272D;
-/*    background-color: #fed136;*/
+/*    border-color: #ffbf00;*/
+    border-color: rgb(193, 39, 45);
+/*    background-color: #ffbf00;*/
     background-color: #C1272D;
 }
 
@@ -276,7 +276,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: rgba(193, 39, 45, 0.5);
-/*    background-color: #fed136;*/
+/*    background-color: #ffbf00;*/
 }
 
 .navbar-default .nav li a {
@@ -290,19 +290,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #f4f4f4;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ffbf00;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #ffbf00;
 }
 
 @media(min-width:768px) {
@@ -310,7 +310,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(255, 191, 0, 0.71) ;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -329,7 +329,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #fff;
+        background-color: #ffbf00;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -341,7 +341,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/Storytelling-2.0-Leadership-Sticky-Messages-And-The-Psychology-Of-Persuasion-SF.jpg);
+    background-image: url(../img/indexbg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -448,7 +448,7 @@ width:100%; height:100%;
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.6);
+    background: rgba(255, 191, 0, 0.6);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -574,7 +574,7 @@ width:100%; height:100%;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #ffbf00;
 }
 
 .timeline>li .timeline-image h4 {
@@ -733,10 +733,8 @@ aside.clients img {
 }
 
 section#contact {
-    margin-top:100px;
-    height:300px;
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+   
+    background-image: url(../img/banners/contact-01.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -745,10 +743,10 @@ section#contact {
     -o-background-size: cover;
 }
 section .contact-container{
-    margin-top:  50px;
+    margin-top:  100px;
 }
 section#contact .section-heading {
-    color: #fff;
+    color: #262626;
 }
 
 section#contact .form-group {
@@ -769,7 +767,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #ffbf00;
     box-shadow: none;
 }
 
@@ -807,7 +805,8 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center;
+    text-align: center;   
+    background-color: #ffbf00;
 }
 
 footer span.copyright {
@@ -847,7 +846,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #C1272D;
 }
 
 .btn:focus,
@@ -938,12 +937,12 @@ width:100%; height:100%;
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #ffbf00;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #ffbf00;
 }
 
 img::selection {
@@ -955,5 +954,5 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #fed136;
+    -webkit-tap-highlight-color: #ffbf00;
 }
