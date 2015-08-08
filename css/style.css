@@ -4,6 +4,9 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.red-txt{
+    color: #C1272D;
+}
 #services {
     
      background-image: url(../img/banners/1-01.png);
