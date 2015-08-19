@@ -8,6 +8,7 @@ body {
     color: #C1272D !important;
 }
 #services {
+/*
     
      background-image: url(../img/banners/1-01.png);
     background-position: center center;
@@ -16,9 +17,11 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+*/
 }
 
 #about {
+/*
      background-image: url(../img/example.jpg);
     background-position: center center;
     background-repeat: none;
@@ -26,6 +29,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+*/
 }
 
 #blog {
@@ -41,6 +45,7 @@ body {
 }
 
 #events {
+/*
      background-image: url(../img/example.jpg);
     background-position: center center;
     background-repeat: none;
@@ -48,6 +53,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+*/
 }
 
 section#portfolio {
@@ -58,6 +64,19 @@ section#portfolio {
 /*    -moz-background-size: cover;*/
 /*    background-size: cover;*/
 /*    -o-background-size: cover;*/
+}
+
+section#contact {
+   
+/*
+    background-image: url(../img/banners/contact-01.png);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+*/
 }
 
 .blog-heading {
@@ -761,16 +780,7 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-   
-    background-image: url(../img/banners/contact-01.png);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
 section .contact-container{
     margin-top:  100px;
 }
@@ -995,4 +1005,8 @@ body {
     font-weight: 700;
     color: #fff;
     background-color: #3a3a9f;
+}
+
+.active {
+    color:#fff;
 }
